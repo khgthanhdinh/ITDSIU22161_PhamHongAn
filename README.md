@@ -62,7 +62,7 @@ cvd_7/
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd cvd_7
+   cd ITDSIU22161_PhamHongAn
    ```
 
 2. **Create and activate a virtual environment**
