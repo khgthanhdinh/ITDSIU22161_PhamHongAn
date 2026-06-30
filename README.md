@@ -174,7 +174,7 @@ Runs a SHAP-vs-ALE consistency check and a bootstrap SHAP stability analysis (Ke
 
    - [**LINK 1**](https://drive.google.com/file/d/16s3oVKKqvprcDakxUig6t9B1zekD3aBS/view?usp=sharing) (GGDrive)
    - [**LINK 2**](https://github.com/khgthanhdinh/cvd_7/releases/download/fram_model/framingham_CatBoost_model.joblib) (Github Releases)
-   - [**LINK 3**](https://huggingface.co/khgthanhdinh/fram_catboost/resolve/main/framingham_CatBoost_model.joblib?download=true) (Hugging Face)
+   - [**LINK 3**](https://huggingface.co/khgthanhdinh/fram_catboost/resolve/main/framingham_CatBoost_model.joblib?download=true) (Hugging Face) **(RECOMMENDED)**
 
    then **move it into** the `framingham/` folder **before** running the app.
 
