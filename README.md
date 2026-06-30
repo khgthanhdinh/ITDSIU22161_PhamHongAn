@@ -90,7 +90,7 @@ cvd_7/
 
 ## 4. Running the App
 
-**Before this, see [Section 6](#6-notes) to find the missing file from `\framingham` folder.**
+> **Before this, see [Section 6](#6-notes) to find the missing file from `\framingham` folder.**
 
 With the virtual environment active and from the project root:
 
@@ -117,7 +117,7 @@ No retraining is required to run the app - it loads the pretrained, calibrated C
 
 ## 5. Retraining the Models (Optional)
 
-The `.joblib` files already in `cleveland/` and `framingham/` (find the file of Framingham in [Section 6](#6-notes)) are sufficient to run `app.py`. 
+> The `.joblib` files already in `cleveland/` and `framingham/` (find the file of Framingham in [Section 6](#6-notes)) are sufficient to run `app.py`. 
 
 Retraining is **only needed** if you want to reproduce the full experimentation pipeline (model comparison, calibration, threshold tuning, SHAP plot generation) from raw data.
 
@@ -178,7 +178,7 @@ Runs a SHAP-vs-ALE consistency check and a bootstrap SHAP stability analysis (Ke
 
    then **move it into** the `framingham/` folder **before** running the app.
 
-2. If use `app2_grive.py`, `app3_git.py` or `app4_hugf.py`: they will download the file from those links, so just run them normally:
+2. If use `app2_grive.py`, `app3_git.py` or `app4_hugf.py`: they will download the file from those links, no need to move the file to the `\framingham` folder, so just run them normally:
 
    ```bash
    streamlit run app2_gdrive.py
